@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwand base;
+@tailwind utilities;
+@tailwind components;
+/* ✅ Correct */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Make sure it looks exactly like this - no duplicates */
+.scrollbar-hide {
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+}
