@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import { assets } from "@/Assets/assets";
+import { assets } from "@/assets/assets";
 import React from "react";
 
 const Sidebar = () => {
